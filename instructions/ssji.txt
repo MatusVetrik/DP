@@ -1,0 +1,2 @@
+1. https://www.cyberpunk.rs/server-side-javascript-injection-with-nodexp-usage-example-ssji-metasploit
+2. Ine ako juice-shop -> na juice-shope ssji viditelna zranitelnost nie je

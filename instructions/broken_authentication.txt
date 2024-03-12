@@ -1,0 +1,6 @@
+1. https://help.owasp-juice.shop/part2/broken-authentication.html
+2. Vybrat si sposob, kt. som este neprezentoval (napr. nie SQL Injection)
+
+1. Bjoern's Favorite Pet -> poukazat na chybnych konstrukciach pri resetovani prihlasovacich udajov
+2. GRDP Data Erasure -> https://www.youtube.com/watch?v=ZtXLNsl-cWI&ab_channel=WebSecurityTutorials
+                     -> 

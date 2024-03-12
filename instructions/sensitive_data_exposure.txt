@@ -1,0 +1,10 @@
+1. https://pwning.owasp-juice.shop/companion-guide/latest/part2/sensitive-data-exposure.html
+2. Demonstrovat viacero viacerymi sposobmi
+
+
+1. localhost:3000/ftp -> mam nahlad na viacero confidential fileov
+
+2. Exposed metrics -> https://www.youtube.com/watch?v=PZzMh14IEJk&ab_channel=m10x.de
+
+
+

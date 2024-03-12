@@ -1,0 +1,10 @@
+1. Spustit BURP s prehliadacom
+2. Odhlasit a ist znova na login
+3. Spustit interceptor
+4. Zadat napr email = "a" heslo = "a"
+5. V interceptore zmeni "email":"a" na "email":"' or 1=1--"
+6. Prihlasi nas do admin uctu
+
+Explanation: Task 3 https://tryhackme.com/room/owaspjuiceshop
+
+Dalsie -> https://help.owasp-juice.shop/part2/injection.html
